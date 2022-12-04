@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+#body{
+    height: 100vh;
+ background-image: url("../images/images.jpg");
+ background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+display: grid; 
+justify-content:center ; 
+align-items: center;
+}
+#body .content{
+
+    height: 200px;
+    width: 400px;
+    text-align: center;
+
+}
+#body h1{
+
+    font-size: 60px;
+}
+#body h3{
+
+    font-size: 20px;
+}
+#body button{
+ padding: 10px 40px;
+ margin-top: 10px;
+ text-transform: uppercase;
+ background: linear-gradient(to left,aqua,blue);
+ color: rgb(17, 17, 17);
+ border: 1px solid aquamarine;
+ cursor: pointer;
+}
+#body button:hover{
+    background: linear-gradient(to left, blue,aqua);
+    
+}
